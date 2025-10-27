@@ -1,5 +1,5 @@
 {% set name = "pleiades-neutron" %}
-{% set version = "2.1.4" %}
+{% set version = "2.1.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pleiades_neutron-{{ version }}.tar.gz
-  sha256: e94bbce11a0456f7992f8316d1a9eb2406b6546395b437cec8a55e2c9377c977
+  sha256: 8c91b1f9047f89a81dbedcfb85ddf2b2d13cc6b1bc6f0500bd0893bb985d0148
 
 build:
   entry_points:
